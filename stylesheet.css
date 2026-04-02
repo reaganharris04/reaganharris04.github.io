@@ -1,0 +1,29 @@
+/* Tag selector */
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+/* ID selector */
+#main-title {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Class selector */
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid gray;
+}
+
+/* Class reused */
+.text {
+    color: black;
+}
+
+/* Hover effect */
+a:hover {
+    color: red;
+}
