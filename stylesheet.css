@@ -13,9 +13,10 @@ body {
 /* Class selector */
 .section {
     background-color: white;
-    margin: 20px;
-    padding: 15px;
-    border: 2px solid gray;
+    margin: 20px;       /* Box Model Property 1 */
+    padding: 15px;      /* Box Model Property 2 */
+    border: 2px solid #bf5700; /* Box Model Property 3 - UT Orange! */
+    border-radius: 8px; 
 }
 
 /* Class reused */
